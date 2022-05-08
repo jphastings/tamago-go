@@ -1,5 +1,5 @@
 # The version of Go used to compile tamago-go
-ARG BOOTSTRAP_GO_VERSION=1.16.4
+ARG BOOTSTRAP_GO_VERSION=1.18.1
 
 FROM golang:$BOOTSTRAP_GO_VERSION as go
 

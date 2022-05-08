@@ -23,7 +23,7 @@ const (
 	// buildDir is the path the Dockerfile will output the built artefacts to
 	buildDir = "/workdir/build"
 	// tamagoBuildDockerProject is the project name on Docker Hub
-	tamagoBuildDockerProject = "f-secure-foundry/tamago-go"
+	tamagoBuildDockerProject = "ghcr.io/f-secure-foundry/tamago-go"
 	// containerName is the name of the container to create
 	containerName = "tamago-build"
 )
